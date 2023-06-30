@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <style>
+        table th,td,tr{
+  border-collapse:collapse;
+  width: 25px;;
+  border-radius: 50px;
+  padding-block-start: 10px;
+  margin-left:10px;
+  margin: right 2px;
+  background-color: orange;
+  background: scroll;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-display: inherit;
+  font-stretch: extra-expanded;
+  font-variant-numeric: oldstyle-nums;
+  line-height: normal;
+  
+  
+
+
+  
+
+ }
+/*th {
+  text-align: center;
+  background-color:orange ;
+  padding: 106px;
+
+}
+td {
+  text-align: center;
+  font: optional;
+  font-weight: 100;
+  color: black;
+  
+  padding: 8px;
+}
+tr{
+  height: fit-content; 
+  font-size: medium; 
+  font-family: 'Times New Roman', Times, serif;
+  background-color: orangered;
+} */
+
+    </style>
+</head>
+<body>
+  <centre>
+  <table class="table table-bordered" style="border-color:white ; border-radius: 20px; ">
+
+
+    <tr >
+      <th style="background-color: orange; border-radius: 20px;">Sr No</th>
+
+      <th style="background-color: orange; border-radius: 20px">District
+      </th>
+      <th style="background-color: orange; border-radius: 20px">Taluka</th>
+      <th style="background-color: orange; border-radius: 20px">District Name</th>
+      <th style="background-color: orange; border-radius: 20px">Name of Collector</th>
+      <th style="background-color: orange; border-radius: 20px">Collector Mobile No</th>
+      <th style="background-color: orange; border-radius: 20px">Name of SP</th>
+      <th style="background-color: orange; border-radius: 20px">SP Mobile No</th>
+      <th style="background-color: orange; border-radius: 20px" >Program Taken or Not</th>
+      <th style="background-color: orange; border-radius: 20px">Total Labharthi</th>
+      <th style="background-color: orange; border-radius: 20px">Name of MLA's</th>
+      <th style="background-color: orange;border-radius: 20px">Name of MP</th>
+    </tr>
+    <tr >
+      <td>01</td>
+      <td>Kolhapur</td>
+      <td>Panhala</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>02</td>
+      <td>Kolhapur</td>
+      <td>Shahuwadi</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>03</td>
+      <td>Kolhapur</td>
+      <td>Kagal</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>04</td>
+      <td>Kolhapur</td>
+      <td>Hatkanangale</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>05</td>
+      <td>Kolhapur</td>
+      <td>Shirol</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>06</td>
+      <td>Kolhapur</td>
+      <td>Radhanagari</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>07</td>
+      <td>Kolhapur</td>
+      <td>GaganBawada</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>08</td>
+      <td>Kolhapur</td>
+      <td>Bhudargad</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>09</td>
+      <td>Kolhapur</td>
+      <td>Gandhiglaj</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Kolhapur</td>
+      <td>Chandgad</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Kolhapur</td>
+      <td>Ajra</td>
+      <td>Kolhapur District</td>
+      <td>Collector 1</td>
+      <td>9860515483</td>
+      <td>SP1</td>
+      <td>9116762069</td>
+      <td>Yes</td>
+      <td>50000</td>
+      <td>abc, XYZ</td>
+      <td>abc, XYZ</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Sangli</td>
+      <td>Miraj</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Sangli</td>
+      <td>Kavathe-Mahankal</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Sangli</td>
+      <td>Tasgaon</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Sangli</td>
+      <td>Jat</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Sangli</td>
+      <td>Walwa (Islampur)</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Sangli</td>
+      <td>Shirala</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Sangli</td>
+      <td>Khanapur-Vita</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Sangli</td>
+      <td>Atpadi</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Sangli</td>
+      <td>Palus</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Sangli</td>
+      <td>Kadegaon</td>
+      <td>Sangli District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Satara</td>
+      <td>Satara</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Satara</td>
+      <td>Jaoli</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Satara</td>
+      <td>Koregaon</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>Satara</td>
+      <td>Wai</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>Satara</td>
+      <td>Mahabaleshwar</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>Satara</td>
+      <td>Khandala</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Satara</td>
+      <td>Phaltan</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>Satara</td>
+      <td>Khatav(Waduj)</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Satara</td>
+      <td>Patan</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>32</td>
+      <td>Satara</td>
+      <td>Karad</td>
+      <td>Satara District</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+   
+    
+
+</table>
+</centre>
+</body>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('.responsive').not('table').responsiveText();
+  $('table.responsive').responsiveTables();
+});
+
+</script>
+
+</html>
